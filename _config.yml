@@ -1,0 +1,15 @@
+# Site settings
+title: Ivana Vel&iacute;&scaron;kov&aacute;
+email: ivanaveliskova@gmail.com
+description: I am a Philadelphia based web developer in pursuit of a position where elegantly simple designs intersect with creativity to effectively bring your company’s visual identity to life.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://ivanaveliskova.github.io" # the base hostname & protocol for your site
+twitter_username: ivanaveliskova
+github_username:  ivanaveliskova
+linkedin_username: ivanaveliskova
+instagram_username: ivanaveliskova
+gmail_username: ivanaveliskova
+disqusid: ivanaveliskova
+
+# Build settings
+markdown: kramdown
