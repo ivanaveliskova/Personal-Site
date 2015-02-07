@@ -8,6 +8,8 @@ permalink: /blog/
 
   <h1 class="page-heading">Posts</h1>
 
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
@@ -19,7 +21,4 @@ permalink: /blog/
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
 </section>
