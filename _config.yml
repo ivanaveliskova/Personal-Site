@@ -13,3 +13,4 @@ disqusid: ivanaveliskova
 
 # Build settings
 markdown: kramdown
+permalink: /blog/:title
