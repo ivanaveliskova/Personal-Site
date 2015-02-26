@@ -56,15 +56,6 @@
             line-height: 0;
             padding-top: 10px;
             text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
         }
 
         .trigger {
@@ -237,6 +228,40 @@
 My Added CSS
 ********************/
 
+/*Hamburger menu on small screen*/
+.hamburger {
+    height: 0;
+    width: 20px;
+    position: relative;
+    top: 6px;
+    margin: auto;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    border-radius: 10px;
+}
+
+.hamburger::before {
+    display: block;
+    position: absolute;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    border-radius: 10px;
+    content: "";
+    width: 20px;
+    top: 5px;
+}
+
+.hamburger::after {
+    position: absolute;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    border-radius: 10px;
+    content: "";
+    width: 20px;
+    bottom: 5px;
+    display: block;
+}
+
 /*Landing Page*/
 .home-page{
     text-align: center;
@@ -296,6 +321,10 @@ Image within Text Styling
 /**************
 Sharing Buttons
 **************/
+.sharing{
+    clear: both;
+}
+
 .social-media-container{
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
