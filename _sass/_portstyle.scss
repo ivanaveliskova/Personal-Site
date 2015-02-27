@@ -79,7 +79,7 @@
 }
 
 .clear{
-  @extend %clearfix;
+  clear: both;
 }
 
 .set-width{
