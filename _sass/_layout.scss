@@ -301,21 +301,31 @@ Image within Text Styling
 
 .img-right{
     float: right;
-    max-width: 150px;
-    width: 25%;
+    max-width: 250px;
+    min-width: 100px;
+    width: 30%;
     margin-left: 10px;
 }
 
 .img-left{
     float: left;
-    max-width: 150px;
-    width: 25%;
+    max-width: 250px;
+    min-width: 100px;
+    width: 30%;
     margin-right: 10px;
 }
 
 .img-subtext{
     font-size: 13px;
     text-align: center;
+}
+
+.img-center{
+    max-width: 400px;
+    width: 50%;
+    min-width: 100px;
+    display: block;
+    margin: auto;
 }
 
 /**************
