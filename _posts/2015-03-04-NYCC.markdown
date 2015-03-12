@@ -26,7 +26,7 @@ When I saw what she wanted me to make, I thought, &#8220;ok, this doesn't look t
 
 Regardless, I somehow did figure it out and complete it. I knew exactly how I needed to make the top, to fit all, erm.... parts. It's just the same as when making a dance dress. The same with the bottom, but the catch was, my friend's torso, is longer than the average person's torso, so I had to work with that. I know, from first hand experience, how terribly difficult it is to find clothes that fit a long torso. It's not easy. So making sure that the custom made costume fit well was my top priority.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/blog-images/costumemaking.jpg" alt="Costume Making" class="img-right"/>
+<img src="../../images/blog-images/costumemaking.jpg" alt="Costume Making" class="img-right"/>
 
 I didn't take many pictures during the making of the costume. I probably should have, now that I think about it.
 
@@ -34,7 +34,7 @@ Oh, well. The pictures to the right are the ones I took while making the costume
 
 I, then, spent several nights the week of Comic Con working on the costume to make sure it is done before my friend left for NYC. The night before she left, she came over and the body suit was done (I was just sewing in the built in bra (yeah, that's right, I put in a built in bra so you didn't have to wear one with the costume) and the clasps on the belt). The next step was for her to try it on and make the white circle on the belt.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/blog-images/costumeandmusic.jpg" alt="Costume and Music" class="img-right"/>
+<img src="../../images/blog-images/costumeandmusic.jpg" alt="Costume and Music" class="img-right"/>
 
 And then came the problem. The boots. Now, boots can get expensive. Especially, boots that are meant for a costume. Especially, boots for a costume being bought during the month of October. So, we went out, bought a bit more fabric (I had used up most of the red) and we went to work to try to make boot covers, which would go over a pair of boots she already had and was going to wear with another costume. Problem solved. Of course, this took us to the wee hours of the night (as in 2 am or so), and then she needed to be on the train the next day by 9am to get into the city by the time NYCC opened. Fortunately, it all went well, and everything turned out great. There may have been slight issues with the boot covers because we didn't entirely think ahead, and it was late at night, but they still worked.
 
@@ -42,7 +42,7 @@ Also, my friend ended up not wearing the boots, for which the covers were specif
 
 All in all, the costume turned out great. Looked great on her and fit really well. I am super grateful that I didn't have to make the wings, tights, or the head piece, but am really happy with the way the costume turned out. It has even been seen on some [blogs][NYCC-blog]{:target="_blank"} and on [yahoo][yahoo-link]{:target="_blank"}.
 
-[<img src="{{ site.url }}{{ site.baseurl }}/images/blog-images/maggiehawkgirl.jpg" alt="Maggie as Hawkgirl" class="img-center"/>][facebook-link]{:target="_blank"}
+[<img src="../../images/blog-images/maggiehawkgirl.jpg" alt="Maggie as Hawkgirl" class="img-center"/>][facebook-link]{:target="_blank"}
 
 [NYCC-blog]: http://catie-does-things.tumblr.com/post/99868632416/nycc-2014-sunday-cosplay-highlights
 [yahoo-link]: https://www.yahoo.com/movies/nycc-throws-down-the-cosplay-c1413224460776/photo-hawkgirl-photo-1413233953581.html
