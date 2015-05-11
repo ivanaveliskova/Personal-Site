@@ -18,9 +18,9 @@ N3rd St is not only about the people but also about what those people are doing 
 
 I was assigned to work on finding and listing all of the companies on N3rd St and the surrounding area (I seem to say surrounding area a lot). There is no immediate resource to efficiently find these companies. Basically, I did a lot of Googling and using certain key terms to find different companies because of course none of the companies will use the same key terms to describe their company, that would make my job way too easy. I opened up a spreadsheet in Google Docs (so I could easily update and share the information with the rest of the group) and got myself to work on gathering all of the necessary information that we chose to display on the site.
 
-<img src="{{ site.url }}/{{ site.baseurl }}/images/blog-images/N3rdstSpreadsheet.png" alt="Spreadsheet example"/>
+<img src="/images/blog-images/N3rdstSpreadsheet.png" alt="Spreadsheet example"/>
 
-<img src="{{ site.url }}/{{ site.baseurl }}/images/blog-images/N3rdstmap.png" alt="Nerd St map" class="img-right"/>
+<img src="/images/blog-images/N3rdstmap.png" alt="Nerd St map" class="img-right"/>
 
 Meanwhile, I had to think about how we are going to display this information. The best way to visually display any list of locations is with a map. So, at this point, I also had to figure out how I wanted to map out the locations. Gathering the data itself was a pain and took forever and a day since there are so many companies, so I had to choose a mapping technique that was quick and painless and didn't require me to do much more past my spreadsheet at the moment. (We were working on everything from about 9:30am - 5pm, so only a few hours.) My first thought was to set up the Cesium API since it has a lot of these functions available that would be extremely useful in this real world problem. Unfortunately, because of the time restraint, this was not possible, it would take too long to make sure to have all of the necessary information in a file and building a JSON file to store it all and a template to read, and yada yada da. So, I went with the quick route, and I just fed my spreadsheet into Google tables and it mapped out the data for me and then spit out an `<iframe>` for me to use on the page.
 
@@ -32,7 +32,7 @@ The ladies who mostly update the N3rd St. website were nice enough to allow us t
 
 I have yet to post up the update to the site because I need to input the rest of the data in and then figure out how to feature it on the site while still linking back to the Cesium API. But with a small sample of data, I put together a working prototype of the map along with buttons to the company names which when clicked will take you to the pin on the map and pop up the description box.
 
-<img src="{{ site.url }}/{{ site.baseurl }}/images/blog-images/CesiumN3rdstmap.png" alt="Cesium N 3rd St Map"/>
+<img src="/images/blog-images/CesiumN3rdstmap.png" alt="Cesium N 3rd St Map"/>
 
 I will need to work on this more to include all of the companies on my list as well as to try to make the data input slightly more efficient. Check out the source code and documentation for it all on my [Github][N3rdst-Github]{:target="_blank"} page!
 
