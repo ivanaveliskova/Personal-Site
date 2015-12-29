@@ -1,7 +1,7 @@
 # Site settings
 title: Ivana Vel&iacute;&scaron;kov&aacute;
 email: ivanaveliskova@gmail.com
-description: I am a Philadelphia based web developer in pursuit of a position where elegantly simple designs intersect with creativity to effectively bring your company’s visual identity to life.
+description: I am a Philadelphia based front end web developer at WebLinc. I like to dabble in lots of things related to web but I really like a solid mix of pleasant visuals and simplicity.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.ivanaveliskova.com" # the base hostname & protocol for your site
 twitter_username: ivanaveliskova
