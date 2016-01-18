@@ -1,11 +1,8 @@
 ---
-layout: post
 title: My Year in Review
 description: It has been a good year
 date: 2015-12-29 09:56:17
 categories: update
-social: true
-comments: true
 ---
 
 Essentially, I want to set some relatively realistic goals for myself which I will discuss in a later post. In the past year, I have accomplished so much. Let's review my past year:

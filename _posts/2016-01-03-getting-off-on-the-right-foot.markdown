@@ -1,11 +1,8 @@
 ---
-layout: post
 title: Starting on the right foot
 description: Resolutions, Part II
 date: 2016-01-03 18:59:36
 categories: update
-social: true
-comments: true
 ---
 
 I'm really excited that I am starting off on a pretty good foot. I just subscribed to Audible through Amazon where I get a 3 month subscribtion for free. Each month you get a free audiobook (for the subscribtion price) and then you can buy more audiobooks as you need. The subscribtion price each month is $14.95. Therefore you are getting an audiobook for $14.95 a month. Each audiobook you get you get to keep for forever and listen to for forever.

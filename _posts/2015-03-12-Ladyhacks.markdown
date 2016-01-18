@@ -1,11 +1,8 @@
 ---
-layout: post
 title: Ladyhacks 2015
 description: How to Make Your Weekend Busy
 date: 2015-03-12 12:19:19
 categories: weekends
-social: true
-comments: true
 ---
 
 This past weekend I had the chance to attend Ladyhacks, a hackathon made only for women. There are some differences between this and a traditional hackathon, but for ladies who are new to coding and wish to improve their skills as well as add to their portfolios, this is a great place to get started. This is the third year in a row it has been run in Philly and, to be perfectly honest, it was my first hackathon.

@@ -1,11 +1,8 @@
 ---
-layout: post
 title: Developing for the Internet
 description: Or why does Internet Explorer Hate me so much?
 date: 2015-05-05 10:32:18
 categories: webdev
-social: true
-comments: true
 ---
 
 Recently, I was working on a project and realized that I needed my code to support Internet Explorer 8 (IE8) (who does that anymore?) (no, but really...) (it's cool). A few things I learned along this journey of finding support for IE8.

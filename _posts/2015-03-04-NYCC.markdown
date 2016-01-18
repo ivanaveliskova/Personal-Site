@@ -1,11 +1,8 @@
 ---
-layout: post
 title: NYCC
 description: Somewhat also overdue
 date: 2015-03-04 19:22:07
 categories: update
-social: true
-comments: true
 ---
 
 I wrote this post up way back when... as in before I figured out how to use Jekyll for blogging. So here it is back! Whoot!

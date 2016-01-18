@@ -1,11 +1,8 @@
 ---
-layout: post
 title: Hello World!
 description: What am I doing?
 date: 2015-02-06 15:44:02
 categories: update
-social: true
-comments: true
 ---
 
 <iframe src="//giphy.com/embed/QHxqxXTnmKCl2?html5=true" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen class="img-right"></iframe>

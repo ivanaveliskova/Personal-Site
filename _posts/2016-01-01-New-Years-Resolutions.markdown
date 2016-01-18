@@ -1,11 +1,8 @@
 ---
-layout: post
 title: New Year's Resolutions
 description: Do people still do this?
 date: 2016-01-01 19:37:54
 categories: update
-social: true
-comments: true
 ---
 
 I read somewhere that telling someone your New Year's Resolutions will make you more likely to actually keep them. This makes sense, in a way, because then you potentially have someone who keeps bugging you if you are keeping to your resolutions and just to prove them as a non-believer ('shun the non-believers!!!') you actually try to keep to your resolutions. Apparently, my company has a weight competition (or at least they had) in which they see who can lose the most weight (I guess in a certain amount of time?), which is also a good way to motivate (I think you win some money or something). There are also loads of unrealistic goals one can set for oneself and never accomplish them. I've done it plenty of times. I'm sure everyone has. But I digress.
