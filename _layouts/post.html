@@ -13,7 +13,9 @@ layout: default
     {{ content }}
   </article>
 
-  {% include social.html %}
+  {% if jekyll.environment == "production" %}
+    {% include social.html %}
 
-  {% include comments.html %}
+    {% include comments.html %}
+  {% endif %}
 </div>
