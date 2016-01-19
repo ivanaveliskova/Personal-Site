@@ -24,3 +24,4 @@ defaults:
       layout: "post"
       social: "true"
       comments: "true"
+      author: "Ivanka"
