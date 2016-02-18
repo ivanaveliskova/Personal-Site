@@ -6,10 +6,10 @@ layout: default
   <header class="post-header">
     <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
     <h2 class="post-subheader" itemprop="alternateName">{{ page.description }}</h2>
-    <p class="post-meta"><span itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</span>{% if page.author %} • <span itemprop="author" itemscope="" itemtype='http://schema.org/Person'><span itemprop="name">{{ page.author }}</span></span>{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <p class="post-meta"><span itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</span>{% if page.author %} • <span itemprop="author" itemscope="" itemtype='http://schema.org/Person'><span itemprop="name">{{ page.author }}</span></span>{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} • <span data-length-to-read>Time goes here</span></p>
   </header>
 
-  <article class="post-content" itemprop="articleBody">
+  <article class="post-content" itemprop="articleBody" data-words>
     {{ content }}
   </article>
 
@@ -19,3 +19,5 @@ layout: default
     {% include comments.html %}
   {% endif %}
 </div>
+
+<script src='/javascripts/calculate_time.js' type="text/javascript"></script>
