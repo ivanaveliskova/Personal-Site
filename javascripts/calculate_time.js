@@ -10,19 +10,19 @@ var calculateTime = function() {
         for (var i = 0; i < selectors.length; i++) {
             var text = selectors[i].textContent;
 
-            splitText = text.split(' ');
+            splitText = text.split(/\s/);
 
             wordCount += splitText.length;
         }
 
     for (var y = 0; y < splitText.length; y++) {
-        if (splitText[y] === '' || splitText[y] === '\n') {
+        if (splitText[y] === '' || splitText[y] === /\n/) {
             wordCount--;
         }
     }
 
     for(var z = 0; z < code.length; z++) {
-        var ignoreCodeTextLength = code[z].textContent.split(' ').length;
+        var ignoreCodeTextLength = code[z].textContent.split(/\s/).length;
         wordCount -= ignoreCodeTextLength;
     }
 
