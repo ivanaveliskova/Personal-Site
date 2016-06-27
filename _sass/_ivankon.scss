@@ -1,0 +1,25 @@
+// IVANKON (ICONS)
+
+$size:          20px;
+
+.ivankon {
+    display: inline-block;
+    margin-right: 10px;
+    width: $size;
+    height: $size;
+    vertical-align: top;
+}
+
+.ivankon--github {}
+
+.ivankon--twitter {}
+
+.ivankon--menu {}
+
+.ivankon--rss {
+    fill: $link-color;
+
+    &:hover {
+        fill: $link-hover-color;
+    }
+}
