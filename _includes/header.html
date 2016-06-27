@@ -1,23 +1,23 @@
-<header class="site-header">
+<header class="header">
 
-  <div class="wrapper">
+  <div class="header__image{% if page.header_image_class %} {{ page.header_image_class }}{% endif %}" style="{% if page.header_bgcolor %}background-color: {{ page.header_bgcolor }};{% endif %} {% if page.header_image %}background-image: url({{ page.header_image }});{% endif %} {% if page.background_pos %}background-position: {{ page.background_pos }};{% endif %}">
+    {% if page.header_image_class contains "header__image--with-text" %}
+      <span class="header__image-text-overlay">{{ page.header_text }}</span>
+    {% else %}
+      {{ site.title }}
+    {% endif %}
+  </div>
 
-    <a href="{{ site.baseurl }}/"><img src="/images/ivana-selfie.jpg" class="header-image"/></a>
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+  <div class="container">
 
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <div class="hamburger"></div>
-      </a>
-
-      <div class="trigger">
-        <a class="page-link" href="{{ site.baseurl }}/">Home</a>
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
+    <nav class="header__nav">
+      {% assign pages = site.pages | sort:"order" %}
+      {% for my_page in pages %}
+        {% if my_page.title and my_page.hidden == "false" %}
+        <a class="header__nav-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+        {% endif %}
+      {% endfor %}
+      <a class="header__nav-link" href="{{ site.baseurl }}/">Human</a>
     </nav>
 
   </div>

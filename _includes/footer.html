@@ -1,64 +1,54 @@
-<footer class="site-footer">
+<footer class="footer">
 
-  <div class="wrapper">
+  <div class="container">
+    <h3 class="footer__heading">Get in touch with me!</h3>
 
-    <h2 class="footer-heading">Contact Me</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
+    <div class="footer__info">
+      <div class="footer__info-col footer__info-col-1">
         <ul class="contact-list">
           <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}" target="_blank">{{ site.email }}</a></li>
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
 
-      <div class="footer-col  footer-col-2">
+      <div class="footer__info-col footer__info-col-2">
         <ul class="social-media-list">
-
           {% if site.github_username %}
           <li>
-            <a href="https://github.com/{{ site.github_username }}" target="_blank">
-              <span class="fa fa-github"></span>
-              Github
+            <a href="https://github.com/{{ site.github_username }}">
+              <a href="https://github.com/{{ site.github_username }}"><span class="ivankon ivankon--github">{% include icons/ivankon-github.svg %}</span><span class="username">Github</span></a>
             </a>
           </li>
           {% endif %}
 
           {% if site.twitter_username %}
           <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
-              <span class="fa fa-twitter"></span>
-              Twitter
+            <a href="https://twitter.com/{{ site.twitter_username }}">
+              <a href="https://twitter.com/{{ site.twitter_username }}"><span class="ivankon ivankon--twitter">{% include icons/ivankon-twitter.svg %}</span><span>Twitter</span></a>
             </a>
           </li>
           {% endif %}
 
           {% if site.instagram_username %}
           <li>
-            <a href="https://www.instagram.com/{{ site.instagram_username }}" target="_blank">
-              <span class="fa fa-instagram"></span>
-              Instagram
-            </a>
+            <a href="https://www.instagram.com/{{ site.instagram_username }}" target="_blank"><span class="ivankon ivankon--instagram">{% include icons/ivankon-instagram.svg %}</span><span>Instagram</span></a>
           </li>
           {% endif %}
           
           {% if site.linkedin_username %}
           <li>
-            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank">
-              <span class="fa fa-linkedin"></span>
-              LinkedIn
-            </a>
+            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank"><span class="ivankon ivankon--linkedin">{% include icons/ivankon-linkedin.svg %}</span><span>LinkedIn</span></a>
           </li>
           {% endif %}
         </ul>
       </div>
-      
-      <div class="footer-col  footer-col-3">
-        <p class="text">{{ site.description }}</p>
+
+      <div class="footer__info-col footer__info-col-3">
+        <p>{{ site.description }}</p>
       </div>
     </div>
-    <div class="copyright">Copyright &copy; {{ site.time | date: "%Y" }} Ivana Vel&iacute;&scaron;kov&aacute;</div>
 
+    <div class="footer__copyright">Copyright &copy; {{ site.time | date: "%Y" }} &#8226; Ivana Vel&iacute;&scaron;kov&aacute;</div>
   </div>
 
 </footer>

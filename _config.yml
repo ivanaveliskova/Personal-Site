@@ -1,27 +1,60 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
 title: Ivana Vel&iacute;&scaron;kov&aacute;
 email: ivanaveliskova@gmail.com
-description: I am a Philadelphia based front end web developer at WebLinc. I like to dabble in lots of things related to web but I really like a solid mix of pleasant visuals and simplicity.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.ivanaveliskova.com" # the base hostname & protocol for your site
-twitter_username: ivanaveliskova
-github_username:  ivanaveliskova
-linkedin_username: ivanaveliskova
+description: > # this means to ignore newlines until "baseurl:"
+  I am a Philadelphia based front end developer at <a href='http://www.weblinc.com'>WebLinc</a>.
+  I like to dance; I love to bake. I like to take pictures; I love to code.
+  Contact me if you need me to make cupcakes or want some coding advice.
+baseurl: "" # the subpath of your site, e.g. /blog. This is mostly if you are hosting on gh-pages and not using your github handle page as in: your-handle.github.io
+url: "" # the base hostname & protocol for your site
+twitter_username:   ivanaveliskova
+github_username:    ivanaveliskova
 instagram_username: ivanaveliskova
-gmail_username: ivanaveliskova
-disqusid: ivanaveliskova
+linkedin_username:  ivanaveliskova
 
 # Build settings
 markdown: kramdown
-permalink: /blog/:title
+
+collections:
+  portfolio:
+    output: true
+    permalink: /developer/:path/
+
+
+# Post Settings
+permalink: /blogger/:title
 
 defaults:
   -
     scope:
       path: "" # an empty string here means all files in the project
+    values:
+      header_image: "/images/desk_placeholder.jpeg"
+      header_bgcolor: "rgb(149, 101, 58)"
+      header_text: "Ivana Vel&iacute;&scaron;kov&aacute;"
+      hidden: "false"
+  -
+    scope:
+      path: ""
       type: "posts"
     values:
-      layout: "post"
-      social: "true"
-      comments: "true"
       author: "Ivanka"
+      layout: "post"
+      footer_js: 
+        - "/javascripts/calculate_time.js"
+        - "/javascripts/twitter.js"
+  -
+    scope:
+      path: ""
+      type: "portfolio"
+    values:
+        layout: "project"
+        header_image_class: "header__image--none"
+      
