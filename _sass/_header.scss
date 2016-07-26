@@ -7,13 +7,17 @@
     .header__image {
         @include hide-text;
         display: flex;
-        height: 60vh;
+        height: 300px;
         text-align: center;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 50%;
         justify-content: center;
         align-items: center;
+
+        @include min-width($above-tablet) {
+            height: 60vh;
+        }
     }
 
     .header__image--none {
