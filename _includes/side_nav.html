@@ -1,5 +1,5 @@
 <aside class="side-nav">
-    <h3>Recent Projects</h3>
+    <h3>Recently Added Projects</h3>
     <ul class="side-nav__list">
         {% assign projects = site.portfolio | sort: page.date | reverse %}
         {% for project in projects | limit: 5 %}

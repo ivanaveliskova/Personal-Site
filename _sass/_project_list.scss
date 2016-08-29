@@ -1,9 +1,34 @@
 // PROJECT-LIST
 
 .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     list-style: none;
+
+    @include min-width($above-tablet) {
+        justify-content: space-between;
+    }
 }
 
     .project-list__item {}
 
-        .project-list__item-link {}
+        .project-list__item-link {
+            position: relative;
+            display: block;
+            text-align: center;
+        }
+
+            .project-list__item-image {
+                max-width: 220px;
+            }
+
+            .project-list__item-text {
+                display: block;
+                position: absolute;
+                right:  0;
+                bottom: 0;
+                left:   0;
+                background: $image-text-bg-color;
+                line-height: 50px;
+            }

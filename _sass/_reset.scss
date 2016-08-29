@@ -65,12 +65,22 @@ p { font-weight: 300; }
 
 // scss-lint:disable NestingDepth
 
-a, a span {
+a {
     color: $link-color;
     text-decoration: none;
 
     &:hover {
         color: $link-hover-color;
+        text-decoration: none;
+
+        span {
+            color: $link-hover-color;
+            text-decoration: none;
+        }
+    }
+
+    span {
+        color: $link-color;
         text-decoration: none;
     }
 }
@@ -78,5 +88,5 @@ a, a span {
 img {
     width: 100%;
     max-width: 100%;
-    vertical-align: center;
+    vertical-align: middle;
 }

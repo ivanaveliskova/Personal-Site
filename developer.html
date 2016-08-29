@@ -6,20 +6,28 @@ order: 3
 header_image: https://images.unsplash.com/photo-1460134846237-51c777df6111?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=c60afdf07aa118d745e64c7391269cbe
 header_bgcolor: rgb(204, 165, 142)
 ---
-<!-- {% assign projects = site.portfolio | sort:"order" %}
+{% assign projects = site.portfolio | sort:"order" %}
 <ul class="project-list">
     {% for project in projects %}
-        <li class="project-list__item"><a href="{{ project.url | prepend: site.baseurl }}" class="project-list__item-link">{{ project.title }}</a></li>
+        <li class="project-list__item">
+            <a href="{% if project.redirect %}{{ project.redirect | prepend: site.basurl }}{% else %}{{ project.url | prepend: site.baseurl }}{% endif %}" class="project-list__item-link">
+                {% if project.image %}
+                    <img src="{{ project.image }}" alt="{{ project.title }}" class="project-list__item-image"/>
+                {% endif %}
+                <span class="project-list__item-text">{{ project.title }}</span>
+            </a>
+        </li>
     {% endfor %}
-</ul> -->
+</ul>
 
-<h2>Currently Under some minor construction over here... I'm sorta slow, ya know?</h2>
-<p>In the meantime, why don't you check out my <a href="/resume">resume</a>?</p>
+<!-- <h2>Currently Under some minor construction over here... I'm sorta slow, ya know?</h2>
+<p>In the meantime, why don't you check out my <a href="/resume">resume</a>?</p> -->
 
 <!-- Projects that should be a part of my portfolio:
 1. Twitter bot
 2. Random dino node.js app
 3. Website for Dan/Taylor
 4. Pure JS word counter
-5. (Maybe I should refactor my tic tac toe game?)
+5. Minerva Priorities
+6. (Maybe I should refactor my tic tac toe game?)
 -->
