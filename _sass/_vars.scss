@@ -25,6 +25,7 @@ $yellow:                #ffff66;
 $purple:                #6600cc;
 $aliceblue:             aliceblue;
 $gray-alpha-80:         rgba($gray, .8);
+$white-alpha-80:        rgba($white, .8);
 
 // standard color names
 $color:                 $black;
@@ -36,5 +37,5 @@ $background-color:      $white;
 $alt-bg-color:          $aliceblue;
 $border-color:          $gray;
 $alt-border-color:      $light-gray;
-$image-text-bg-color:   $gray-alpha-80;
+$image-text-bg-color:   $white-alpha-80;
 
