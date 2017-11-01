@@ -9,7 +9,7 @@
 title: Ivana Vel&iacute;&scaron;kov&aacute;
 email: ivanaveliskova@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  I am a Philadelphia based front end developer at <a href='http://www.weblinc.com'>WebLinc</a>.
+  I am a Philadelphia based front end engineer at <a href='http://www.getguru.com'>Guru</a>.
   I like to dance; I love to bake. I like to take pictures; I love to code.
   Contact me if you need me to make cupcakes or want some coding advice.
 baseurl: "" # the subpath of your site, e.g. /blog. This is mostly if you are hosting on gh-pages and not using your github handle page as in: your-handle.github.io
