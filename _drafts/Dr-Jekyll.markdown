@@ -4,8 +4,6 @@ title: Dr. Jekyll
 description: and Mr. Hyde
 
 categories: Jekyll
-social: true
-comments: true
 ---
 
 I won't really be talking about the novel, _Dr. Jekyll and Mr. Hyde_, by Robert Louis Stevensen. I'll be perfectly honest, I haven't even read it (scary things don't sit too well with me, although I saw the _Wishbone_ episode on it), but I understand the gist. Man has split personality disorder, that's my take (kidding, although in a sense it is true).

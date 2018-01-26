@@ -4,8 +4,6 @@ title: Building a webpage
 description: and how to make it decent
 
 categories: Jekyll
-social: true
-comments: true
 ---
 
 Alright, I will be perfectly honest, I am probably not the greatest web designer in the whole wide world. I'm still learning every single day something new and loving every moment of it because it allows me to continue to learn about the world, how it works, and how to incorporate that into my web designs.
