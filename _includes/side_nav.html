@@ -1,9 +1,0 @@
-<aside class="side-nav">
-    <h3>Recently Added Projects</h3>
-    <ul class="side-nav__list">
-        {% assign projects = site.portfolio | sort: page.date %}
-        {% for project in projects | limit: 5 %}
-            <li class="side-nav__list-item"><a href="{% if project.redirect %}{{ project.redirect | prepend: site.basurl }}{% else %}{{ project.url | prepend: site.baseurl }}{% endif %}" class="side-nav__list-item-link"> {{ project.title }}</a></li>
-        {% endfor %}
-    </ul>
-</aside>
