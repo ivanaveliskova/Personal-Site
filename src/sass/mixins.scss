@@ -1,0 +1,22 @@
+// PREFIXING
+@mixin prefix($property, $value, $vendors: webkit moz ms o) {
+  @if $vendors {
+    @each $vendor in $vendors {
+      #{"-" + $vendor + "-" + $property}: #{$value};
+    }
+  }
+
+  #{$property}: #{$value};
+}
+
+// MIN-WIDTH
+@mixin min-width($breakpoint) {
+  @media screen and (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+// BOX-SIZING
+@mixin box-sizing($box-model) {
+  @include prefix(box-sizing, $box-model, webkit moz);
+}

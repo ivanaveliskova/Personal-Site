@@ -1,11 +1,19 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `Ivana`,
+    introduction: `I'm Ivana`,
+    blurb: `I'm a Frontend Engineer`,
+    aboutMe: `I code sometimes`,
+    blog: `I blog sometimes`,
+    author: `Ivana Veliskova`,
+    description: `Why isn't this working`,
+    siteUrl: `https://www.ivana.dev`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `ivanaveliskova`,
+      linkedin: `ivanaveliskova`,
+      github: `ivanaveliskova`,
+      instagram: `ivanaveliskova`,
+      codepen: `ivanaveliskova`,
     },
   },
   plugins: [
@@ -50,7 +58,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-156020716-1`,
       },
     },
     `gatsby-plugin-feed`,
@@ -66,14 +74,26 @@ module.exports = {
         icon: `content/assets/gatsby-icon.png`,
       },
     },
-    `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,
+        omitGoogleFont: true,
       },
     },
+    // this (optional) plugin enables Progressive Web App + Offline functionality
+    // To learn more, visit: https://gatsby.dev/offline
+    // `gatsby-plugin-offline`,
+
     `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-react-svg`,
+      options: {
+        rule: {
+          include: `${__dirname}/content/assets/svgs`,
+        },
+      },
+    },
   ],
-}
+};

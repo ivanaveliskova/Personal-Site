@@ -1,0 +1,10 @@
+@import "../../sass/index.scss";
+
+.Layout {
+  background: linear-gradient(180deg, $purple 29.69%, $blue 71.35%, $pink 100%),
+    $purple;
+  color: $highlight-font-color;
+  display: grid;
+  min-height: 100vh;
+  padding: 24px;
+}

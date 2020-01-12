@@ -1,0 +1,20 @@
+@import "./variables.scss";
+@import "./mixins.scss";
+
+@import "./reset.scss";
+
+.is-highlighted {
+  color: $highlight-color;
+}
+
+.Main {
+}
+
+.Main__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.Main__introduction {
+  align-self: flex-end;
+}
