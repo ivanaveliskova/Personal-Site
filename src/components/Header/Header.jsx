@@ -85,16 +85,16 @@ export default function Header({ headline, location }) {
   const rootPath = `${__PATH_PREFIX__}/`;
 
   const imageClasses = ClassNames("Header__image", {
-    ["is-small"]: location.pathname !== rootPath,
+    "is-small": location.pathname !== rootPath,
   });
 
   const headerClasses = ClassNames("Header__main", {
-    ["is-grid"]: location.pathname !== rootPath,
+    "is-grid": location.pathname !== rootPath,
   });
 
   const navItems = menuItems.map(item => {
     const navClasses = ClassNames("Header__link", {
-      ["is-selected"]: location.pathname === item.url,
+      "is-selected": location.pathname === item.url,
     });
     return (
       <Link to={item.url} className={navClasses}>
