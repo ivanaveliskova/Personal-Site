@@ -4,6 +4,7 @@ import ClassNames from "classnames";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 
+import "../../sass/reset.scss";
 import "./Layout.scss";
 
 export default function Layout({ location, headline, children, className }) {

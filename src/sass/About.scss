@@ -1,0 +1,12 @@
+@import "./index.scss";
+
+.About {
+  .About__content {
+    background-color: $contrast-background-color;
+    border-radius: 8px;
+    color: $font-color;
+    height: 100%;
+    padding: 16px;
+    width: 100%;
+  }
+}

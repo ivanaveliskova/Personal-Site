@@ -4,6 +4,8 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout/Layout";
 import SEO from "../components/seo";
 
+import "../sass/Main.scss";
+
 export default function Main({ data, location }) {
   const { blurb, introduction } = data.site.siteMetadata;
 
